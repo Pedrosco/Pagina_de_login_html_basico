@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Roboto:wght@300&display=swap');
+
+body{
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+
+.tela__cadastro{
+    margin: 10% 38% 10% 38%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tela__cadastro__inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20% 20% 20%;
+    gap: 10px;
+}
+
+.tela__cadastro__inputs h1{
+    font-family: 'Krone One', sans-serif;
+    font-weight: 300;
+    margin: 2px;
+    padding: 0;
+}
+
+.tela__cadastro__inputs p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.tela__cadastro__inputs label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.tela__cadastro__inputs input{
+    padding: 10px 40px 10px 0px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.btn__acessar{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-top: 15px;
+    padding: 8px 0px 8px 0px;
+    color: white;
+    background-color: rgb(231, 56, 56);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.btn__acessar:hover{
+    background-color: rgb(216, 10, 10);
+    transition: background-color 0.2s;
+ 
+}
